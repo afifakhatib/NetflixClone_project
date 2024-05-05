@@ -44,7 +44,7 @@ const insertMainsliderItems = (arr) => {
                return `
                <div class="item" ${movie.id}>
                <figure class="mb-0 movieCard">
-                   <img src="https://image.tmdb.org/t/p/original${movie.poster_path || movie.backdrop_path}" alt="">
+                   <img src="https://image.tmdb.org/t/p/original${movie.backdrop_path || movie.poster_path}" alt="">
                    <figcaption>
                       <h3 class="display-3">
                       ${movie.title || movie.original_title || movie.original_name}
