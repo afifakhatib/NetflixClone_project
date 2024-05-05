@@ -1,0 +1,51 @@
+:root{
+    --color-primary : #181818;
+    --color-secondary : #fff;
+}
+
+body{
+    background-color: var(--color-primary);
+}
+
+.movieCard{
+    height: 100vh;
+    position: relative;
+}
+
+.movieCard img{
+    height : 100%;
+    object-fit: cover;
+}
+
+.movieCard figcaption{
+    position: absolute;
+    top : 0;
+    left : 0;
+    width : 50%;
+    height : 100%;
+    color:var(--color-secondary);
+    background-image: linear-gradient(
+        98deg,
+        #181818 10%,
+        hsla(0,0%,9% , 0.98) 20%,
+        hsla(0,0%,9% , 0.97) 25%,
+        hsla(0,0%,9% , 0.95) 35%,
+        hsla(0,0%,9% , 0.94) 40%,
+        hsla(0,0%,9% , 0.92) 45%,
+        hsla(0,0%,9% , 0.9) 50%,
+        hsla(0,0%,9% , 0.87) 55%,
+        hsla(0,0%,9% , 0.82) 60%,
+        hsla(0,0%,9% , 0.75) 65%,
+        hsla(0,0%,9% , 0.63) 70%,
+        hsla(0,0%,9% , 0.45) 75%,
+        hsla(0,0%,9% , 0.27) 80%,
+        hsla(0,0%,9% , 0.15) 85%,
+        hsla(0,0%,9% , 0.08) 90%,
+        hsla(0,0%,9% , 0.03) 95%,
+        hsla(0,0%,9% , 0) 20%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 30px;
+}

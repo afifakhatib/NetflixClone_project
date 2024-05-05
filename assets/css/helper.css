@@ -1,0 +1,34 @@
+.bnt{
+    background-color: #e6e6e6;
+    background-image: linear-gradient(180deg , #e6e6e6 , #ddd);
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba( 0, 0 ,0 ,.2);
+    box-sizing: border-box;
+    color : #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+}
+
+.btn.btn-large{
+    font-size : 20px;
+    min-height: 48px;
+    min-width: 112px;
+    padding : 14px 2em;
+}
+
+.btn-red{
+    background-color: #e50914;
+    background-image: linear-gradient(180deg , #e50914 , #db0510);
+    box-shadow: 0 1px 0 rgba(0 , 0 , 0, .45);
+    color:var(--color-secondary)
+}
